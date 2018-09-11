@@ -31,5 +31,5 @@ export BOOTKUBE_WORKER_MEMORY=2048
 
 ### Details
 
-The cluster is created using the latest version of kubernetes with the help of [kubernetes-incubator/bootkube](https://github.com/kubernetes-incubator/bootkube) project. On top of the vanilla kubernetes cluster, persistent volume support is baked in using [rook.io](https://rook.github.io/). Also, the [kubernetes dashbaord](https://github.com/kubernetes/dashboard) is included and can be accessed through `kubectl proxy` at http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/ (assuming proxy is running on default port of `8001`).
+The cluster is created using the latest version of kubernetes with the help of [kubernetes-incubator/bootkube](https://github.com/kubernetes-incubator/bootkube) project. On top of the vanilla kubernetes cluster, persistent volume support is baked in using [rook.io](https://rook.github.io/). Also, the [kubernetes dashbaord](https://github.com/kubernetes/dashboard) is included and can be accessed through `kubectl proxy` at http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/ (assuming proxy is running on default port of `8001`). The dashboard is configued for anonymous admin access so hit "skip" when asked to login.
 
