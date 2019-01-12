@@ -1,3 +1,4 @@
 .DS_Store
 kubernetes-incubator-bootkube
 cluster
+.idea
